@@ -1,0 +1,573 @@
+html:root{
+    color-scheme: dark;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    background: linear-gradient(180deg, rgb(37 15 68), purple);
+    background-size: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logoflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+}
+.logo{
+    color: purple;
+    font-size: 400%;
+}
+b{
+    color: white;
+}
+.ulmenu{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#theme{
+    width: 50px;
+}
+nav{
+    padding-inline: 100px;
+}
+#menua{
+    padding: 16px 20px;
+    transition: 600ms;
+    font-size: 20px;
+}
+#menua:hover{
+    padding: 16px 20px;
+    background: rgb(37 15 68);
+    border-radius: 10px 10px 0 0;
+}
+#sloganh1, #h1{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+#sloganp{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.aboutus{
+    background: linear-gradient(270deg, purple, rgb(37 15 68));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+#aboutimg{
+    width: 100%;
+    border-radius: 25px;
+}
+.imgflex{
+    line-height: 0;
+}
+.info{
+    width: 50%;
+}
+#h1{
+    margin: 150px 0 30px;
+}
+.hr{
+    border: solid white 1px;
+    background-color: white;
+    width: 20%;
+    margin-bottom: 100px;
+}
+.gallery{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.support{
+    padding-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, purple, rgb(37 15 68));
+    height: 480px;
+}
+.supporter{
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: black;
+    width: 180px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 600ms;
+}
+.supporter:hover{
+    width: 200px;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+}
+#name, #aboutchr{
+    transition: 600ms;
+}
+.supporter:hover #name{
+    font-size: 26px;
+}
+.supporter:hover #aboutchr{
+    font-size: 18px;
+}
+.imgflex{
+    width: 500px; 
+}
+.infologo{
+    margin-top: 0;
+}
+#aboutimg{
+    width: 100%;
+    border-radius: 25px;
+}
+#icon{
+    width: 100%;
+    border-radius: 100px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+}
+#input{
+    border: none;
+    border-radius: 1000px;
+    padding: 10px 100px 10px 10px;
+    width: 250px;
+    position: relative;
+    left: 103px;
+    background-color: white;
+    color: black;
+}
+#button{
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(45deg, rgb(214, 67, 190), purple);
+    color: white;
+    position: relative;
+}
+#footh1{
+    font-weight: lighter;
+    font-size: 25px;
+}
+.mainFooter{
+    padding: 22px 100px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#compname{
+    margin-top: 0;
+}
+#soclinks{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+#liFooter{
+    margin-right: 15px;
+}
+.footersoc{
+    padding-right: 40px;
+    width: 400px;
+}
+.subinfo{
+    color: rgb(102, 102, 102);
+    margin: 10px 0px;
+}
+.policy{
+    padding-inline: 40px;
+}
+#policy{
+    font-size: 20px;
+    margin-top: 8px;
+}
+.policyul{
+    list-style: none;
+    padding: 0;
+}
+#li{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+.mapMenu{
+    padding-left: 40px;
+}
+#socimg{
+    width: 30px;
+}
+#ali{
+    transition: 300ms;
+    color: rgb(102, 102, 102);
+}
+#ali:hover{
+    color:rgb(136, 136, 136);
+}
+@media(max-width:1080px){
+    .logoflex{
+        padding-inline: 50px;
+    }
+    .logo{
+        font-size: 600%;
+    }
+    #theme{
+        width: 80px
+    }
+    nav{
+        padding-inline: 50px;
+    }
+    #menua{
+        font-size: 30px;
+    }
+    #sloganh1{
+        font-size: 60px;
+    }
+    #sloganp{
+        font-size: 25px;
+    }
+    #h1{
+        font-size: 60px;
+    }
+    #name{
+        font-size: 40px;
+    }
+    #aboutchr{
+        font-size: 25px;
+    }
+    .support{
+        padding: 50px;
+        height: 600px;
+    }
+    .supporter{
+        width: 250px;
+        padding: 20px;
+    }
+    #icon{
+        border-radius: 150px;
+    }
+    .supporter:hover{
+        width: 300px;
+    }
+    .supporter:hover #aboutchr{
+        font-size: 30px;
+    }
+    .supporter:hover #name{
+        font-size: 48px
+    }
+    .infologo{
+        font-size: 37px;
+    }
+    .infotext{
+        font-size: 20px;
+    }
+    .galimage{
+        width: 75%;
+    }
+    #footh1{
+        font-size: 40px;
+    }
+    #input{
+        font-size: 20px;
+        padding-right: 136px;
+        left: 143px
+    }
+    #button{
+        font-size: 20px;
+    }
+    footer{
+        font-size: 21px;
+    }
+    #policy{
+        font-size: 24px;
+    }
+    #compname{
+        font-size: 40px;
+    }
+    #socimg{
+        width: 50px;
+    }
+    .contact{
+        padding-inline: 50px;
+    }
+    .mainFooter{
+        padding-inline: 50px;
+    }
+}
+@media(min-width:1800px){
+    .logoflex{
+        padding-inline: 125px;
+    }
+    .logo{
+        font-size: 500%;
+    }
+    #theme{
+        width: 62.5px
+    }
+    nav{
+        padding-inline: 125px;
+    }
+    #menua{
+        font-size: 25px;
+        padding: 20px 25px;
+    }
+    #menua:hover{
+        padding: 20px 25px;
+        border-radius: 12.5px 12.5px 0 0;
+    }
+    #sloganh1{
+        font-size: 62.5px;
+        margin-bottom: 12.5px;
+    }
+    #h1{
+        font-size: 62.5px;
+        margin: 187.5px 0 37.5px;
+    }
+    .header{
+        height: 625px;
+    }
+    .support{
+        padding-inline: 125px;
+        height: 600px;
+    }
+    .supporter{
+        width: 225px;
+        padding: 37.5px;
+        border-radius: 31.25px;
+    }
+    .supporter:hover{
+        width: 250px;
+    }
+    .supporter:hover #name{
+        font-size: 32.5px;
+    }
+    .supporter:hover #aboutchr{
+        font-size: 22.5px;
+    }
+    .aboutus{
+        padding: 62.5px 125px;
+    }
+    #sloganp{
+        font-size: 25px;
+    }
+    #name{
+        font-size: 30px;
+    }
+    #aboutchr{
+        font-size: 20px;
+    }
+    #icon{
+        border-radius: 125px;
+    }
+    .imgflex{
+        width: 625px;
+    }
+    .infologo{
+        font-size: 40px;
+    }
+    .infotext{
+        font-size: 20px;
+    }
+    .galimage{
+        width: 40%;
+    }
+    #footh1{
+        font-size: 31.25px;
+    }
+    #liFooter{
+        margin-right: 18.75px;
+    }
+    .footersoc{
+        padding-right: 50px;
+        width: 500px;
+    }
+    .subinfo{
+        margin: 12.5px 0;
+        font-size: 20px;
+    }
+    #input{
+        font-size: 20px;
+        padding: 12.5px 125px 12.5px 12.5px;
+        left: 147px;
+        width: 356.25px;
+    }
+    #policy{
+        font-size: 25px;
+    }
+    #compname{
+        font-size: 40px;
+    }
+    #socimg{
+        width: 31.25px;
+    }
+    .contact{
+        padding-inline: 125px;
+    }
+    #button{
+        padding: 10px;
+        border-radius: 32px;
+        font-size: 20px;
+    }
+    .mainFooter{
+        padding: 27.5px 125px;
+    }
+    #ali{
+        font-size: 20px;
+    }
+    #socimg{
+        width: 37.5px;
+    }
+}
+@media(min-width:3800px){
+    
+    .logoflex{
+        padding-inline: 250px;
+    }
+    .logo{
+        font-size: 1000%;
+    }
+    #theme{
+        width: 125px
+    }
+    nav{
+        padding-inline: 250px;
+    }
+    #menua{
+        font-size: 50px;
+        padding: 40px 50px;
+    }
+    #menua:hover{
+        padding: 40px 50px;
+        border-radius: 25px 25px 0 0;
+    }
+    #sloganh1{
+        font-size: 125px;
+        margin-bottom: 25px;
+    }
+    #h1{
+        font-size: 125px;
+        margin: 375px 0 75px;
+    }
+    .header{
+        height: 1250px;
+    }
+    .support{
+        padding-inline: 250px;
+        height: 1200px;
+    }
+    .supporter{
+        width: 450px;
+        padding: 75px;
+        border-radius: 62.5px;
+    }
+    .supporter:hover{
+        width: 500px;
+    }
+    .supporter:hover #name{
+        font-size: 65px;
+    }
+    .supporter:hover #aboutchr{
+        font-size: 45px;
+    }
+    .aboutus{
+        padding: 125px 250px;
+    }
+    #sloganp{
+        font-size: 50px;
+    }
+    #name{
+        font-size: 60px;
+    }
+    #aboutchr{
+        font-size: 40px;
+    }
+    #icon{
+        border-radius: 250px;
+    }
+    .imgflex{
+        width: 1250px;
+    }
+    .infologo{
+        font-size: 80px;
+    }
+    .infotext{
+        font-size: 40px;
+    }
+    .galimage{
+        width: 40%;
+    }
+    #footh1{
+        font-size: 62.5px;
+    }
+    #liFooter{
+        margin-right: 37.5px;
+    }
+    .footersoc{
+        padding-right: 100px;
+        width: 1000px;
+    }
+    .subinfo{
+        margin: 25px 0;
+        font-size: 40px;
+    }
+    #input{
+        font-size: 40px;
+        padding: 25px 250px 25px 25px;
+        left: 290px;
+        width: 712.5px;
+    }
+    #policy{
+        font-size: 50px;
+    }
+    #compname{
+        font-size: 80px;
+    }
+    #socimg{
+        width: 62.5px;
+    }
+    .contact{
+        padding-inline: 250px;
+    }
+    #button{
+        padding: 20px;
+        border-radius: 64px;
+        font-size: 40px;
+    }
+    .mainFooter{
+        padding: 55px 250px;
+    }
+    #ali{
+        font-size: 40px;
+    }
+    #socimg{
+        width: 75px;
+    }
+}
